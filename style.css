@@ -194,27 +194,55 @@ body {
   height: 100%;
   float: left;
 }
-.board .A {
+.board .square {
+  width: 100%;
+  height: 12.5%;
+}
+.board .A1,
+.board .A3,
+.board .A5,
+.board .A7 {
   background: black;
 }
-.board .B {
-  background: blue;
+.board .B2,
+.board .B4,
+.board .B6,
+.board .B8 {
+  background: black;
 }
-.board .C {
-  background: green;
+.board .C1,
+.board .C3,
+.board .C5,
+.board .C7 {
+  background: black;
 }
-.board .D {
-  background: red;
+.board .D2,
+.board .D4,
+.board .D6,
+.board .D8 {
+  background: black;
 }
-.board .E {
-  background: purple;
+.board .E1,
+.board .E3,
+.board .E5,
+.board .E7 {
+  background: black;
 }
-.board .F {
-  background: pink;
+.board .F2,
+.board .F4,
+.board .F6,
+.board .F8 {
+  background: black;
 }
-.board .G {
-  background: white;
+.board .G1,
+.board .G3,
+.board .G5,
+.board .G7 {
+  background: black;
 }
-.board .H {
-  background: grey;
+.board .H2,
+.board .H4,
+.board .H6,
+.board .H8 {
+  background: black;
 }
