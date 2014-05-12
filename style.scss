@@ -33,6 +33,30 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		.square {
 			width: 100%;
 			height: 12.5%;
+			position: relative;
+
+			.playable {
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+			}
+
+			.pawn {
+				border: 1px solid red;
+			}
+
+			.rook {
+				background: green;
+			}
+
+			.bishop {
+				background: red;
+			}
+
+			.placeable {
+				width: 100%;
+				height: 100%;
+			}
 		}
 
 		.A1,

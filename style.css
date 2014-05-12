@@ -197,6 +197,25 @@ body {
 .board .square {
   width: 100%;
   height: 12.5%;
+  position: relative;
+}
+.board .square .playable {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.board .square .pawn {
+  border: 1px solid red;
+}
+.board .square .rook {
+  background: green;
+}
+.board .square .bishop {
+  background: red;
+}
+.board .square .placeable {
+  width: 100%;
+  height: 100%;
 }
 .board .A1,
 .board .A3,
