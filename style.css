@@ -204,17 +204,13 @@ body {
   height: 100%;
   border-radius: 50%;
 }
-.board .square .pawn {
-  border: 1px solid red;
+.board .square .white {
+  background: white;
+  border: 5px solid black;
 }
-.board .square .rook {
-  background: green;
-}
-.board .square .knight {
-  background: purple;
-}
-.board .square .bishop {
-  background: red;
+.board .square .black {
+  background: black;
+  border: 5px solid white;
 }
 .board .square .placeable {
   width: 100%;

@@ -41,22 +41,15 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 				border-radius: 50%;
 			}
 
-			.pawn {
-				border: 1px solid red;
+			.white {
+				background: white;
+				border: 5px solid black;
 			}
 
-			.rook {
-				background: green;
+			.black {
+				background: black;
+				border: 5px solid white;
 			}
-
-			.knight {
-				background: purple;
-			}
-			
-			.bishop {
-				background: red;
-			}
-
 
 			.placeable {
 				width: 100%;
