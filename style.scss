@@ -49,9 +49,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 				background: green;
 			}
 
+			.knight {
+				background: purple;
+			}
+			
 			.bishop {
 				background: red;
 			}
+
 
 			.placeable {
 				width: 100%;
